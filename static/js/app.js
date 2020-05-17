@@ -1,5 +1,5 @@
 function init() {
-  d3.json("../data/samples.json").then((sampleData) => {
+  d3.json("samples.json").then((sampleData) => {
     //console log the data for accuracy
     console.log("total data", sampleData);
     var samples = sampleData.samples;
